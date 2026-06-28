@@ -1,6 +1,0 @@
-{
-  "name": "UNAMAD Conecta",
-  "description": "Plataforma de apoyo estudiantil para la Universidad Nacional Amazónica de Madre de Dios (UNAMAD).",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
