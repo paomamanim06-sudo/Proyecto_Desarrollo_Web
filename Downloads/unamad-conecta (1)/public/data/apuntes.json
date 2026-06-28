@@ -1,0 +1,38 @@
+[
+  {
+    "id": "APU-001",
+    "titulo": "Resumen de Redes de Computadoras - Modelo OSI",
+    "autor": "Diego Flores Mamani",
+    "carrera": "Ingeniería de Sistemas e Informática",
+    "curso": "Redes y Conectividad I",
+    "descripcion": "Un resumen súper didáctico con diagramas que explica las 7 capas del modelo OSI, protocolo TCP/IP, y direccionamiento IPv4/IPv6.",
+    "archivo": "resumen_osi_diego.pdf",
+    "descargas": 45,
+    "meGusta": 18,
+    "fecha": "2026-06-25"
+  },
+  {
+    "id": "APU-002",
+    "titulo": "Guía de Anatomía de Caninos (Músculos y Huesos)",
+    "autor": "Ana Lucía Ortiz Ramos",
+    "carrera": "Medicina Veterinaria y Zootecnia",
+    "curso": "Anatomía Veterinaria I",
+    "descripcion": "Guía completa con fotos etiquetadas del sistema muscular y óseo de caninos. Ideal para repasar antes del examen práctico en el laboratorio.",
+    "archivo": "anatomia_caninos_guia.pdf",
+    "descargas": 32,
+    "meGusta": 14,
+    "fecha": "2026-06-26"
+  },
+  {
+    "id": "APU-003",
+    "titulo": "Apuntes de Derecho de Obligaciones - Negocio Jurídico",
+    "autor": "Jean Pierre Valenzuela",
+    "carrera": "Derecho y Ciencias Políticas",
+    "curso": "Derecho Civil: Obligaciones",
+    "descripcion": "Apuntes limpios de clase estructurando los elementos del negocio jurídico, vicios de la voluntad y teorías del cumplimiento obligacional.",
+    "archivo": "obligaciones_negocio_juridico.pdf",
+    "descargas": 21,
+    "meGusta": 9,
+    "fecha": "2026-06-27"
+  }
+]
