@@ -1,0 +1,45 @@
+.reports{
+    padding:80px 60px;
+    background:white;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.reports h2{
+    text-align:center;
+    color:#1a4d2e;
+    font-size:2.2rem;
+}
+
+.subtitle{
+    text-align:center;
+    margin:20px auto 50px;
+    color:#666;
+    max-width:700px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.card{
+    background:#f8f9fa;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#1a4d2e;
+    margin-bottom:15px;
+}

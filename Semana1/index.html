@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNAMAD Conecta - Plataforma Estudiantil</title>
+    <!-- Vinculamos el CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 1. HEADER FIJO -->
+    <header>
+        <a href="#" class="logo">🌿 UNAMAD Conecta</a>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#reportes">Reportes</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="#biblioteca">Biblioteca</a></li>
+                <li><a href="#anuncios">Anuncios</a></li>
+                <li><a href="#panel" class="btn-panel">👤 Mi Panel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. SECCIÓN HERO -->
+        <section class="hero" id="inicio">
+            <div class="hero-text">
+                <h1>Apoyo Estudiantil <br>de Clase Mundial</h1>
+                <p>Nuestra plataforma integral permite a los estudiantes de la UNAMAD reportar problemas, compartir apuntes académicos y estar siempre informados.</p>
+                <div class="hero-btns">
+                    <a href="#crear-reporte" class="btn btn-main">📝 Crear Reporte</a>
+                    <a href="#biblioteca" class="btn btn-sec">📚 Ver Biblioteca</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <!-- Representación visual usando CSS -->
+                <div class="placeholder-box">📖</div>
+            </div>
+        </section>
+
+        <!-- 3. MÓDULO DE REPORTES -->
+        <section id="reportes">
+            <h2 class="section-title">Reportes Recientes</h2>
+            <div class="reports-grid">
+                <!-- Tarjeta 1 -->
+                <article class="card">
+                    <span class="status st-pending">⏳ Pendiente</span>
+                    <h3>Pabellón de Sistemas</h3>
+                    <p><b>Carrera:</b> Ing. de Sistemas</p>
+                    <p><b>Semestre:</b> VI</p>
+                    <p>Se reporta falta de conectividad en el laboratorio 02.</p>
+                    <div class="card-footer">
+                        <small>🔒 Privado</small>
+                        <a href="#" class="link-more">Ver más →</a>
+                    </div>
+                </article>
+                <!-- Tarjeta 2 -->
+                <article class="card">
+                    <span class="status st-review">🔎 En Revisión</span>
+                    <h3>Comedor Universitario</h3>
+                    <p><b>Carrera:</b> Enfermería</p>
+                    <p><b>Semestre:</b> IV</p>
+                    <p>Solicitud de ampliación de bandejas para el turno tarde.</p>
+                    <div class="card-footer">
+                        <small>🌍 Público</small>
+                        <a href="#" class="link-more">Ver más →</a>
+                    </div>
+                </article>
+                <!-- Tarjeta 3 -->
+                <article class="card">
+                    <span class="status st-done">✅ Resuelto</span>
+                    <h3>Áreas Verdes</h3>
+                    <p><b>Carrera:</b> Ing. Forestal</p>
+                    <p><b>Semestre:</b> II</p>
+                    <p>Mantenimiento preventivo en el acceso principal terminado.</p>
+                    <div class="card-footer">
+                        <small>🌍 Público</small>
+                        <a href="#" class="link-more">Ver más →</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Formulario de Reporte -->
+            <div id="crear-reporte" class="form-container">
+                <h3 style="text-align: center; margin-bottom: 25px;">Generar Nuevo Reporte</h3>
+                <form class="grid-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Tipo de Problema</label>
+                            <select>
+                                <option>Académico</option>
+                                <option>Infraestructura</option>
+                                <option>Bienestar</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Carrera</label>
+                            <input type="text" placeholder="Ej: Ecoturismo">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Semestre</label>
+                            <input type="number" value="1">
+                        </div>
+                        <div class="form-group">
+                            <label>Asunto</label>
+                            <input type="text" placeholder="Título corto">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Descripción</label>
+                        <textarea rows="4" placeholder="Describe brevemente la situación..."></textarea>
+                    </div>
+                    <div class="check-group">
+                        <input type="checkbox" id="pub">
+                        <label for="pub">Hacerlo público para otros estudiantes</label>
+                    </div>
+                    <div class="check-group">
+                        <input type="checkbox" id="anon">
+                        <label for="anon">Enviar como anónimo</label>
+                    </div>
+                    <button type="button" class="btn btn-main" style="margin-top: 20px;">🚀 Enviar Reporte Oficial</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 4. COMUNIDAD ACADÉMICA -->
+        <section class="bg-grey" id="comunidad">
+            <h2 class="section-title">Comunidad Académica</h2>
+            <h3 style="margin-bottom: 20px;">📑 Apuntes Compartidos</h3>
+            <div class="notes-grid">
+                <div class="note-box">
+                    <h4>Cálculo Diferencial</h4>
+                    <p>Resumen derivadas 2026.</p>
+                    <a href="#" class="link-more">⬇️ Descargar</a>
+                </div>
+                <div class="note-box">
+                    <h4>Química General</h4>
+                    <p>Tabla periódica avanzada.</p>
+                    <a href="#" class="link-more">⬇️ Descargar</a>
+                </div>
+                <div class="note-box">
+                    <h4>Ecología</h4>
+                    <p>Informe biodiversidad.</p>
+                    <a href="#" class="link-more">⬇️ Descargar</a>
+                </div>
+            </div>
+
+            <h3 style="margin: 40px 0 20px;">🤝 Voluntarios</h3>
+            <div class="notes-grid">
+                <div class="card" style="width: 280px; text-align: center;">
+                    <div class="avatar" style="width: 60px; height: 60px; margin: 0 auto 10px;">👩‍🎓</div>
+                    <h4>Ana García</h4>
+                    <p>Carrera: Derecho</p>
+                    <p>Ayuda en: Oratoria</p>
+                    <button class="btn-sec" style="padding: 5px 15px; margin-top: 10px;">Contactar</button>
+                </div>
+                <div class="card" style="width: 280px; text-align: center;">
+                    <div class="avatar" style="width: 60px; height: 60px; margin: 0 auto 10px;">👨‍🎓</div>
+                    <h4>Luis Rojas</h4>
+                    <p>Carrera: Sistemas</p>
+                    <p>Ayuda en: Java</p>
+                    <button class="btn-sec" style="padding: 5px 15px; margin-top: 10px;">Contactar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. BIBLIOTECA DIGITAL -->
+        <section id="biblioteca">
+            <h2 class="section-title">Biblioteca Digital</h2>
+            <div style="max-width: 600px; margin: 0 auto 40px;">
+                <input type="text" placeholder="🔍 Buscar libros o PDFs..." style="width: 100%; padding: 15px; border-radius: 30px; border: 1px solid #ddd;">
+            </div>
+            <div class="reports-grid">
+                <div class="card" style="width: 220px;">
+                    <div style="height: 120px; background: #eee; display: flex; align-items: center; justify-content: center; font-size: 3rem; margin-bottom: 10px;">📘</div>
+                    <h4>Libro: Álgebra</h4>
+                    <p>Baldor Ed. 2024</p>
+                </div>
+                <div class="card" style="width: 220px;">
+                    <div style="height: 120px; background: #eee; display: flex; align-items: center; justify-content: center; font-size: 3rem; margin-bottom: 10px;">📗</div>
+                    <h4>Guía: Botánica</h4>
+                    <p>PDF - 50MB</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. ANUNCIOS -->
+        <section class="bg-grey" id="anuncios">
+            <h2 class="section-title">Anuncios Importantes</h2>
+            <div class="announcement-list">
+                <div class="ann-item">
+                    <div class="ann-date"><b>15</b>MAY</div>
+                    <div>
+                        <span class="status st-pending">EVENTO</span>
+                        <h3>Semana Universitaria</h3>
+                        <p>Inicio de actividades deportivas y culturales en el campus principal.</p>
+                        <a href="#" class="link-more">Leer más</a>
+                    </div>
+                </div>
+                <div class="ann-item">
+                    <div class="ann-date"><b>20</b>MAY</div>
+                    <div>
+                        <span class="status st-review">ACADÉMICO</span>
+                        <h3>Examen Parcial I</h3>
+                        <p>Se publicaron los roles de exámenes para todas las facultades.</p>
+                        <a href="#" class="link-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. PANEL DE USUARIO -->
+        <section id="panel">
+            <h2 class="section-title">Área de Estudiantes</h2>
+            <div class="dashboard">
+                <div class="profile-side">
+                    <div class="avatar">👨‍💻</div>
+                    <h3>Rodrigo Sánchez</h3>
+                    <p>Código: 23121005</p>
+                    <p>Facultad de Ingeniería</p>
+                    <button class="btn btn-sec" style="width: 100%; margin-top: 20px;">Editar Datos</button>
+                </div>
+                <div class="stats-side">
+                    <div class="stat-box">
+                        <h2>05</h2>
+                        <p>Reportes</p>
+                    </div>
+                    <div class="stat-box">
+                        <h2>12</h2>
+                        <p>Recursos</p>
+                    </div>
+                    <div class="stat-box">
+                        <h2>45</h2>
+                        <p>Puntos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div>
+                <h3>🌿 UNAMAD Conecta</h3>
+                <p>Plataforma para el apoyo estudiantil continuo.</p>
+                <p style="margin-top: 10px;">📞 (+51) 987 654 321</p>
+            </div>
+            <div>
+                <h4>Enlaces Rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Portal Alumno</a></li>
+                    <li><a href="#">Biblioteca Central</a></li>
+                    <li><a href="#">Defensoría</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Síguenos</h4>
+                <div style="font-size: 1.5rem; display: flex; gap: 15px;">
+                    <a href="#" style="text-decoration: none;">📘</a>
+                    <a href="#" style="text-decoration: none;">🐦</a>
+                    <a href="#" style="text-decoration: none;">📸</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Universidad Nacional Amazónica de Madre de Dios. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
