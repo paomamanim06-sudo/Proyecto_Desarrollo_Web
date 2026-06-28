@@ -1,0 +1,58 @@
+[
+  {
+    "id": "REP-001",
+    "estudianteId": "user-estudiante",
+    "estudianteNombre": "Diego Flores Mamani",
+    "estudianteCarrera": "Ingeniería de Sistemas e Informática",
+    "categoria": "Infraestructura",
+    "visibilidad": "Público",
+    "descripcion": "Los proyectores del pabellón B, aula 302, parpadean constantemente impidiendo visualizar correctamente las clases de Redes. Se solicita apoyo técnico.",
+    "imagen": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=300&fit=crop",
+    "codigo": "REP-1042",
+    "fecha": "2026-06-24",
+    "estado": "Resuelto",
+    "observaciones": "El personal de soporte técnico de UNAMAD reemplazó el cable HDMI y calibró el proyector el 25 de junio."
+  },
+  {
+    "id": "REP-002",
+    "estudianteId": "user-estudiante",
+    "estudianteNombre": "Diego Flores Mamani",
+    "estudianteCarrera": "Ingeniería de Sistemas e Informática",
+    "categoria": "Servicios",
+    "visibilidad": "Público",
+    "descripcion": "La conexión Wi-Fi de la biblioteca general está muy lenta durante las tardes (de 2 PM a 5 PM), lo que dificulta realizar investigaciones universitarias.",
+    "imagen": "",
+    "codigo": "REP-1043",
+    "fecha": "2026-06-26",
+    "estado": "En revisión",
+    "observaciones": "La Oficina de Tecnologías de Información está evaluando ampliar el ancho de banda del AP de la biblioteca."
+  },
+  {
+    "id": "REP-003",
+    "estudianteId": "user-estudiante2",
+    "estudianteNombre": "Ana Lucía Ortiz Ramos",
+    "estudianteCarrera": "Medicina Veterinaria y Zootecnia",
+    "categoria": "Académico",
+    "visibilidad": "Privado",
+    "descripcion": "Dificultad para coordinar la matrícula extemporánea debido a que el sistema SIGU no registra la convalidación del curso de Bioquímica.",
+    "imagen": "",
+    "codigo": "REP-1044",
+    "fecha": "2026-06-27",
+    "estado": "Pendiente",
+    "observaciones": ""
+  },
+  {
+    "id": "REP-004",
+    "estudianteId": "user-estudiante2",
+    "estudianteNombre": "Anónimo",
+    "estudianteCarrera": "Medicina Veterinaria y Zootecnia",
+    "categoria": "Acoso",
+    "visibilidad": "Anónimo",
+    "descripcion": "Se ha observado una conducta inapropiada por parte de un usuario externo cerca de la salida de la facultad. Solicitamos mayor vigilancia de seguridad en los accesos.",
+    "imagen": "",
+    "codigo": "REP-1045",
+    "fecha": "2026-06-28",
+    "estado": "Pendiente",
+    "observaciones": ""
+  }
+]
